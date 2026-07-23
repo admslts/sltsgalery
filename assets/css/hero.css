@@ -1,17 +1,15 @@
 /* Hero Section Styles */
 .hero {
-  margin: 20px, 20px, 20px, 20px;
-  border-radius: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px; /* Adjusted padding for full screen */
+  padding: 20px;
   background-color: #f4f4f4;
-  border-bottom: 1px solid #ddd;
-  height: calc(100vh - 60px); /* Full viewport height minus navbar height */
+  height: 100vh; /* Full viewport height */
   width: 100%;
+  box-sizing: border-box;
 }
 
 .hero h1 {
