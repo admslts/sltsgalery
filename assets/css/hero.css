@@ -5,20 +5,25 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 100px 20px;
+  padding: 20px; /* Adjusted padding for full screen */
   background-color: #f4f4f4;
   border-bottom: 1px solid #ddd;
+  height: calc(100vh - 60px); /* Full viewport height minus navbar height */
+  width: 100%;
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 5rem; /* Increased font size for prominence */
   font-weight: bold;
   color: #333;
   margin-bottom: 20px;
+  text-transform: uppercase; /* Optional: make it all caps */
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.5rem; /* Increased font size */
+  font-weight: bold; /* Make paragraph bold */
   color: #666;
-  max-width: 600px;
+  max-width: 800px; /* Increased max-width for better readability on larger screens */
+  padding: 0 20px; /* Add horizontal padding */
 }
