@@ -7,10 +7,12 @@
   align-items: center;
   padding: 0.5rem 2rem;
   height: auto;
-  background-color: #e0e0e0;
+  background-color: #e0e0e0b0;
   border-radius: 16px;
   margin: 20px 20px 0 20px;
-}
+  text-transform: uppercase;
+  font-weight: 500;
+}m, a visual story
 
 .nav-links {
   display: flex;
